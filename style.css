@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'AGB' ;
+  src: url(AlteHaasGroteskBold.ttf);
+}
+
+body {
+    background: linear-gradient(to top, #dbdbdb, #ffffff);
+    font-size: 15pt;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+  background: linear-gradient(to bottom, #2b2b2b, #171717);
+  width: 300px ;
+  height: 500px;
+  border-radius: 15px;
+  box-shadow: 0px 12px 0px #363636;
+}
+.display {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+input {
+  width: 90%;
+  height: 80px;
+  border-radius: 5px;
+  background-color: grey;
+  box-shadow: 0px 2px 2px black;
+  font-family: 'AGB', sans-serif;
+  font-size: 41px;
+  color: white;
+  text-align: right;
+}
+.buttons {
+  margin-top: 20px;
+  margin-left: 18px;
+}
+button {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  font-family: 'AGB', sans-serif;
+  font-size: 20px;
+}
+#AC , #C {
+  width: 128px;
+  background-color: #ff1f1f;
+  color: white;
+}
+#AC:active , #C:active {
+  background-color: #ff6161;
+  transform: scale(0.95);
+  box-shadow: 0px 0px 2px black;
+}
+button:active {
+  background-color: #ffffff;
+  transform: scale(0.95);
+  filter: brightness(100%);
+  box-shadow: 0px 0px 2px black;
+}
